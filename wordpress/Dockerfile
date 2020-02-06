@@ -1,4 +1,4 @@
-FROM wordpress:php7.2-fpm-alpine
+FROM arm64v8/wordpress:5.3.2-php7.2-fpm-alpine
 
 RUN apk add --no-cache curl tar \
     && mkdir -p /app \
