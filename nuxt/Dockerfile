@@ -1,4 +1,4 @@
-FROM node:mhart/alpine-node:latest
+FROM mhart/alpine-node:latest
 
 RUN mkdir -p /usr/src/nuxt
 
