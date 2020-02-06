@@ -33,7 +33,7 @@ services:
     networks:
       - flat-network
   db:
-    image: mysql:5.7
+    image: mariadb:latest
     volumes:
       - ./db_data:/var/lib/mysql
     restart: always
